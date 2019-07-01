@@ -1,12 +1,16 @@
 {
-    "name": "wikimedia/composer-merge-plugin",
-    "description": "Composer plugin to merge multiple composer.json files",
+    "name": "porsi/composer-merge-plugin",
+    "description": "Composer plugin to merge multiple composer.json files. Originally build by Bryan Davis (wikimedia.org), some small additions made by Matthijs Thoolen",
     "type": "composer-plugin",
     "license": "MIT",
     "authors": [
         {
             "name": "Bryan Davis",
             "email": "bd808@wikimedia.org"
+        },
+        {
+            "name": "Matthijs Thoolen",
+            "email": "matthijsthoolen@hotmail.com"
         }
     ],
     "minimum-stability": "dev",
@@ -27,9 +31,6 @@
         }
     },
     "extra": {
-        "branch-alias": {
-            "dev-master": "1.3.x-dev"
-        },
         "class": "Wikimedia\\Composer\\MergePlugin"
     },
     "config": {
